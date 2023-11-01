@@ -379,7 +379,7 @@
             OnSelect: |
                 =Remove(
                     Requisicoes,
-                    GallManutencoes.Selected
+                    Manutencoes_2.Selected
                 );
                 UpdateContext({Cont_ExclManutencao_1: false});
             Size: =20
