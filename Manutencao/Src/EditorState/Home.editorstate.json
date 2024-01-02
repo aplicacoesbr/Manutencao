@@ -183,6 +183,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "BtnGerenciar",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -510,6 +511,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "BtnLayout",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -818,6 +820,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "BtnLayout1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1184,6 +1187,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "BtnRequisicao",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1395,6 +1399,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "GrpGerenciar",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1446,6 +1451,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "GrpLayout",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1497,6 +1503,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "GrpRequisicao",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1572,6 +1579,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Home",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1697,6 +1705,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon7",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1917,6 +1926,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconGerenciar",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2096,6 +2106,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ImgMETTA",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2357,6 +2368,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TxtDesc",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2662,6 +2674,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TxtDesc1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2972,6 +2985,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TxtReqisicao",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3274,6 +3288,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TxtTitle",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
