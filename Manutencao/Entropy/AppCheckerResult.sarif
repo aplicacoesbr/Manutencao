@@ -14,6 +14,248 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContAndamento_1.Button1_25.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContAndamento_1.Button1_25.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 45,
+                  "charOffset": 32,
+                  "snippet": {
+                    "text": "ManutAndamento.Run(Manutencoes_2.Selected.ID)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.ContAndamento_1.Button1_25"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Run",
+              "ManutAndamento"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrUnknownNamespaceFunction",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContConcluir_1.Button1_27.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContConcluir_1.Button1_27.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 45,
+                  "charOffset": 103,
+                  "snippet": {
+                    "text": "ManutConcluido.Run(Manutencoes_2.Selected.ID)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.ContConcluir_1.Button1_27"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Run",
+              "ManutConcluido"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrUnknownNamespaceFunction",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 406,
+                  "snippet": {
+                    "text": "in"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.Manutencoes_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Descrição "
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByColumn",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 365,
+                  "snippet": {
+                    "text": "||"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.Manutencoes_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 422,
+                  "snippet": {
+                    "text": "Or"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.Manutencoes_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 319,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.Manutencoes_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Manutencao 0.1'.ContAvisoEnvio_1.BtnSim1_1.OnSelect"
                 }
               ],
@@ -415,242 +657,630 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContAndamento_1.Button1_25.OnSelect"
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContAndamento_1.Button1_25.OnSelect",
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3.AccessibleLabel",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 45,
-                  "charOffset": 32,
-                  "snippet": {
-                    "text": "ManutAndamento.Run(Manutencoes_2.Selected.ID)"
-                  }
                 }
               },
               "properties": {
-                "member": "OnSelect",
+                "member": "AccessibleLabel",
                 "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContAndamento_1.Button1_25"
+                "type": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "Run",
-              "ManutAndamento"
-            ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrUnknownNamespaceFunction",
-          "ruleIndex": 0
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContConcluir_1.Button1_27.OnSelect"
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContConcluir_1.Button1_27.OnSelect",
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3.TabIndex",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 45,
-                  "charOffset": 103,
-                  "snippet": {
-                    "text": "ManutConcluido.Run(Manutencoes_2.Selected.ID)"
-                  }
                 }
               },
               "properties": {
-                "member": "OnSelect",
+                "member": "TabIndex",
                 "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContConcluir_1.Button1_27"
+                "type": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "Run",
-              "ManutConcluido"
-            ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrUnknownNamespaceFunction",
-          "ruleIndex": 0
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items"
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Title_DataCard1_3.DataCardValue1_6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items",
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Title_DataCard1_3.DataCardValue1_6.AccessibleLabel",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 406,
-                  "snippet": {
-                    "text": "in"
-                  }
                 }
               },
               "properties": {
-                "member": "Items",
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Title_DataCard1_3.DataCardValue1_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Prioridade_DataCard1_3.DataCardValue2_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Prioridade_DataCard1_3.DataCardValue2_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Prioridade_DataCard1_3.DataCardValue2_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataEstimada_DataCard3_1.DataCardValue11_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataEstimada_DataCard3_1.DataCardValue11_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataEstimada_DataCard3_1.DataCardValue11_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Descrição _DataCard2_3'.DataCardValue7_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Descrição _DataCard2_3'.DataCardValue7_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Descrição _DataCard2_3'.DataCardValue7_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Link_DataCard1_3.DataCardValue5_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Link_DataCard1_3.DataCardValue5_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Link_DataCard1_3.DataCardValue5_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Preço _DataCard1_3'.DataCardValue3_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Preço _DataCard1_3'.DataCardValue3_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Preço _DataCard1_3'.DataCardValue3_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Anexos_DataCard1_3.DataCardValue6_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Anexos_DataCard1_3.DataCardValue6_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Anexos_DataCard1_3.DataCardValue6_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataAprovador_DataCard3_1.DataCardValue12_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataAprovador_DataCard3_1.DataCardValue12_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataAprovador_DataCard3_1.DataCardValue12_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon1_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon1_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.Icon1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon1_4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon1_4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.Icon1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.TextInputPesquisa_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.TextInputPesquisa_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.TextInputPesquisa_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.Icon3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.Icon3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
                 "module": "Gerenciar 0.1",
                 "type": "'Gerenciar 0.1'.Manutencoes_2"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "Descrição "
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByColumn",
-          "ruleIndex": 1
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items"
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items",
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.TabIndex",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 365,
-                  "snippet": {
-                    "text": "||"
-                  }
                 }
               },
               "properties": {
-                "member": "Items",
+                "member": "TabIndex",
                 "module": "Gerenciar 0.1",
                 "type": "'Gerenciar 0.1'.Manutencoes_2"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "Filter"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 2
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items"
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items",
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2.AccessibleLabel",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 422,
-                  "snippet": {
-                    "text": "Or"
-                  }
                 }
               },
               "properties": {
-                "member": "Items",
+                "member": "AccessibleLabel",
                 "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Manutencoes_2"
+                "type": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "Filter"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 2
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items"
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Items",
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2.TabIndex",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 319,
-                  "snippet": {
-                    "text": "&&"
-                  }
                 }
               },
               "properties": {
-                "member": "Items",
+                "member": "TabIndex",
                 "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Manutencoes_2"
+                "type": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "Filter"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 2
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Gerenciar 0.1",
+                "type": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -2307,636 +2937,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContEdit1_1.Arrow1_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Title_DataCard1_3.DataCardValue1_6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Title_DataCard1_3.DataCardValue1_6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Title_DataCard1_3.DataCardValue1_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Prioridade_DataCard1_3.DataCardValue2_6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Prioridade_DataCard1_3.DataCardValue2_6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Prioridade_DataCard1_3.DataCardValue2_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataEstimada_DataCard3_1.DataCardValue11_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataEstimada_DataCard3_1.DataCardValue11_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataEstimada_DataCard3_1.DataCardValue11_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Descrição _DataCard2_3'.DataCardValue7_6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Descrição _DataCard2_3'.DataCardValue7_6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Descrição _DataCard2_3'.DataCardValue7_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Link_DataCard1_3.DataCardValue5_6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Link_DataCard1_3.DataCardValue5_6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Link_DataCard1_3.DataCardValue5_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Preço _DataCard1_3'.DataCardValue3_6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Preço _DataCard1_3'.DataCardValue3_6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.'Preço _DataCard1_3'.DataCardValue3_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Anexos_DataCard1_3.DataCardValue6_6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Anexos_DataCard1_3.DataCardValue6_6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.Anexos_DataCard1_3.DataCardValue6_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataAprovador_DataCard3_1.DataCardValue12_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataAprovador_DataCard3_1.DataCardValue12_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.ContEdit1_1.Edit_manutencao_2.DataAprovador_DataCard3_1.DataCardValue12_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon1_4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon1_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Icon1_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon1_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon1_4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Icon1_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.TextInputPesquisa_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.TextInputPesquisa_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.TextInputPesquisa_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Icon3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon3_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Icon3_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Icon3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Manutencoes_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Manutencoes_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Manutencoes_2.Icon2_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Gerenciar 0.1",
-                "type": "'Gerenciar 0.1'.Manutencoes_2.Icon3_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.manutencao"
                 }
               ],
@@ -2967,65 +2967,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Manutencao 0.1'"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Manutencao 0.1'",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "module": "Manutencao 0.1",
-                "type": "'Manutencao 0.1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-ScreenHasManyControls",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Manutencao 0.1'.Card_InfoManutencao"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Manutencao 0.1'.Card_InfoManutencao",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Card_InfoManutencao",
-                "module": "Manutencao 0.1",
-                "type": "'Manutencao 0.1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Gerenciar 0.1'.Card_InfoManutencao"
                 }
               ],
@@ -3049,7 +2990,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -3079,7 +3020,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -3109,7 +3050,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -3139,7 +3080,66 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Manutencao 0.1'"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Manutencao 0.1'",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Manutencao 0.1",
+                "type": "'Manutencao 0.1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-ScreenHasManyControls",
           "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Manutencao 0.1'.Card_InfoManutencao"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Manutencao 0.1'.Card_InfoManutencao",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Card_InfoManutencao",
+                "module": "Manutencao 0.1",
+                "type": "'Manutencao 0.1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 6
         }
       ],
       "tool": {
@@ -3251,6 +3251,23 @@
               }
             },
             {
+              "id": "app-UnusedVariables",
+              "messageStrings": {
+                "issue": {
+                  "text": "Variável não usada"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remover a variável não usada."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Essa variável está declarada, mas não é referenciada por nenhum controle, portanto não é necessária."
+              }
+            },
+            {
               "id": "app-ScreenHasManyControls",
               "messageStrings": {
                 "issue": {
@@ -3269,23 +3286,6 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "Cada controle consome recursos e, quando uma tela tem muitos controles, o aplicativo pode ficar lento ou parar de responder. A complexidade estimada de \"Manutencao 0.1\" é 431, o que excede o limite máximo recomendado (300)."
-              }
-            },
-            {
-              "id": "app-UnusedVariables",
-              "messageStrings": {
-                "issue": {
-                  "text": "Variável não usada"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remover a variável não usada."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Essa variável está declarada, mas não é referenciada por nenhum controle, portanto não é necessária."
               }
             }
           ],
